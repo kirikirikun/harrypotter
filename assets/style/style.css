@@ -1,0 +1,176 @@
+/*pengaturan semua*/
+*{
+    box-sizing: border-box;
+}
+/*pengaturan body*/
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2&display=swap');
+body{
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+/*Pengaturan card*/
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+
+    background-color:rgba(255, 237, 186);
+}
+/*header*/
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position:center;
+}
+/*akhir header*/
+/*Nav*/
+nav li{
+    display: inline;
+    margin: 7px;
+
+
+    background-color: grey;
+    border-radius: 5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    text-shadow: 0px 2px 4px grey;
+    
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    font-size: 20px; 
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+/*akhir nav*/
+/*main*/
+main {
+    padding: 30px;
+    overflow: auto;
+ }
+/*akhir main*/
+/*div*/
+#content {
+    float: left;
+    width: 75%;
+    
+ }
+/*akhir div*/
+/*tabel*/
+table{
+    text-align: left;
+}
+/*article yang ke-1*/
+.image{
+   width: 20%;
+   height: 20%;
+   display: block;
+   margin: auto;
+
+   border-radius: 20px;
+   box-shadow: 2px 4px 4px 5px black;
+}
+
+p{
+    text-align: justify;
+}
+/*akhir acrticle ke-1*/
+/*aside*/
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+ }
+
+/*article ke-2*/
+.container{
+        display: flex;
+ 
+           width: auto;
+           height: auto;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+}
+.flex-first{
+    flex-grow: 1;
+}
+.flex-second{
+    flex-grow: 1;
+}
+.flex-third{
+    flex-grow: 1;
+}
+.flex-fourth{
+    flex-grow: 1;
+}
+.flex-fifth{
+    flex-grow: 1;
+}
+.flex-sixth{
+    flex-grow: 1;
+}
+
+.film{
+    width: 15%;
+    height: 20%;
+
+    padding: 2px;
+    margin: 4px;
+
+    border-radius: 15px;
+    box-shadow: 0px 10px 5px 2px black;
+}
+
+/*Media Query*/
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+/*footer*/
+footer{
+     background-color: rgba(237, 169, 21);
+     padding: 1%;
+ }
+
+ footer p{
+     text-align: center;
+     color: white;
+     font-size: auto;
+     font-weight: 300;
+
+ }
+/*akhir footer*/
+
+ /*Bagian Mantra*/
+ p#charm{
+     background-color: white;
+     padding: 3px;
+ }
+/*akhir bagian mantra*/
+
+/*bagian pemain*/
+section.container{
+    width: 800px;
+    overflow: auto;
+    margin: 2px;
+}
+img.actor{
+    float: left;
+    margin: 4px;
+
+    width: 25%;
+    height: 25%;
+}

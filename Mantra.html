@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="icon" href="assets/image/ikon.png">
+        <title>Harry Potter</title>
+    </head>
+    <body>
+        <header>
+            <img src="assets/image/harry.png" alt="karikatur harry potter" class="featured-image">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Pemain.html">Pemain</a></li>
+                    <li><a href="Mantra.html">Mantra</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+               <article class="card">
+                <h2>Pilih nama mantra untuk mengetahui fungsi</h2>
+ 
+                <form id="form1" name="form1" onsubmit="return false">
+                  <label for="select1">Nama mantra : </label>
+                  <select id="select1" name="select1">
+                    <option value="alohomora">Alohomora</option>
+                    <option value="lumos">Lumos</option>
+                    <option value="wingardiumLeviosa">Wingardium Leviosa</option>
+                    <option value="expelliarmus">Expelliarmus</option>
+                    <option value="crucio">Crucio</option>
+                    <option value="avadaKedavra"> Avada Kedavra</option>
+                    <option value="accio">Accio</option>
+                    <option value="protego">Protego</option>
+                  </select>
+                  <input type="submit" value="Tampilkan Keterangan" onclick="tampilkan()">
+                </form>
+                <p style="font-size:17px">Fungsi mantra:</p>
+                <p id="charm"></p>
+               </article>
+            </div>
+            <aside>
+                <article class="card">
+                    <header>
+                        <h1 align="center">Riki Subaktiar</h1>
+                        <img src="assets/image/profile/saya.jpg" alt="profile" class="featured-image">
+                    </header>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Tempat, tanggal lahir : </th>
+                                <td>Indramayu, 04 November 2002</td>
+                            </tr>
+                            <tr>
+                                <th>Zodiak       :</th>
+                                <td>Scorpio</td>
+                            </tr>
+                            <tr>
+                                <th>Karakter favorit :</th>
+                                <td> Hermione Granger</td>
+                            </tr>
+                            <tr>
+                                <th>Mantra favorit :</th>
+                                <td>Expecto Patronum </td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>Potter Head  &#169; 2020, FansHarry</p>
+        </footer>
+        <script src="assets/style/pot.js"></script>
+    </body>
+</html>
